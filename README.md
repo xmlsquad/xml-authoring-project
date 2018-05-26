@@ -1,2 +1,2 @@
 # xml-authoring-directory
-A structured directory within which we build xmls.
+A structured directory where we build and store xmls.
