@@ -1,0 +1,40 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "338feb9d2a46dd387660f57804eb2937",
+    "packages": [
+        {
+            "name": "forikal-uk/xml-authoring-tools",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/forikal-uk/xml-authoring-tools.git",
+                "reference": "a6f5913b4114a60afc82047f7d43b5e2158ac617"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/forikal-uk/xml-authoring-tools/zipball/a6f5913b4114a60afc82047f7d43b5e2158ac617",
+                "reference": "a6f5913b4114a60afc82047f7d43b5e2158ac617",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "PHP Console commands for managing xml files.",
+            "time": "2018-05-27T17:39:51+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
