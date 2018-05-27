@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Products>
+	<Product>
+		<StockItem>
+			<KNumberExists>true</KNumberExists>	
+			<KNumber>1111111</KNumber>
+			<AdditionalKNumbers>
+				<KNumber>2222222</KNumber>
+				<KNumber>3333333</KNumber>
+			</AdditionalKNumbers>
+			<AlternativeNumber></AlternativeNumber>
+			<InventoryContainerID></InventoryContainerID>
+
+			<Name>foo</Name>
+			<Purpose>2</Purpose>
+			<PurposeOther />	
+			<InventoryQuantity>0.1</InventoryQuantity>
+			<HandlingStatus></HandlingStatus>
+			<SupplierRegistrationNumber>foo</SupplierRegistrationNumber>
+		</StockItem>
+	</Product>
+</Products>	
