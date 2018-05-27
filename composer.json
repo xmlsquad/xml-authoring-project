@@ -1,4 +1,8 @@
 {
+    "name": "forikal-uk/xml-authoring-project",
+    "description": "Structured directory where xmls get created, read, updaated or deleted.",
+    "type": "project",
+    "license": "Apache-2.0",
     "require": {
         "forikal-uk/xml-authoring-tools": "^0.0.1"
     }

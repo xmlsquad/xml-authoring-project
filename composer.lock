@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "338feb9d2a46dd387660f57804eb2937",
+    "content-hash": "562cb5955506c732a70480bf89110d13",
     "packages": [
         {
             "name": "forikal-uk/xml-authoring-tools",
