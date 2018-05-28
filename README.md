@@ -7,11 +7,13 @@ This acts as a project template which forms the base for creating an xml-authori
 
 # Who needs this anyway?
 
-So, we have a client who wants some Xmls authored. We need to set up a folder on your computer that acts as a 'working directory' for the client's Xml project. 
+So, you are a staff member who is responsible for editing a client's Xml files.
+
+We have a client who wants some Xmls authored. We need to set up a folder on your computer that acts as a 'working directory' for the client's Xml project. 
 
 We use Git SCM to track changes to the files within this directory.
 
-Each xml-authoring-project has a composer.json file in the root directory which defines dependencies such as custom software tools.
+Each instance of this [xml-authoring-project](https://github.com/forikal-uk/xml-authoring-project) has a `composer.json` file in the root directory which specifies an ever-increasing set of custom software tools that can speed up your most repetitive tasks.
 
 ## Custom software tools
 
@@ -43,7 +45,7 @@ $ cd /Users/Bob/Documents/Projects/XmlAuthoring
 
 Given a client, we may or may not already have their working directory set up.
 
-### If we have already set up a client working directory.
+### Using an existing working directory.
 
 * Run `git clone` to get a local copy of the client's working directory
 * Use `cd` to change into the working directory.
@@ -53,7 +55,7 @@ Now, you should be able to work on the Xml files.
 
 Once your edits are finished, use `git` to [commit your changes](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository) to the `origin`.
 
-### Initialising a new xml authoring project for a client
+### Set up a new xml authoring project working directory for a client
 
 We create a new git repository (based on this [xml-authoring-project](https://github.com/forikal-uk/xml-authoring-project)), alter the remotes then push it to our git hosting solution. Effectively, we [fork it](https://help.github.com/articles/fork-a-repo/).
 
@@ -77,6 +79,17 @@ Now, you should be able to work on the Xml files.
 
 Once your edits are finished, use `git` to commit your changes to the `origin`.
 
-# Use tools on files in this directory
+
+# Using the tools
 
 See: https://github.com/forikal-uk/xml-authoring-tools
+
+# Keeping the tools updated
+
+The custom tools are always improving. 
+
+To update to the latest versions of the tools.
+
+* First ensure all changes to client files are committed and pushed to the repository
+* In the command terminal, navigate to the root of the client working directory and run `composer update`
+
