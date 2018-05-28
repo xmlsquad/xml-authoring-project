@@ -41,12 +41,13 @@ We assume that you have installed :
 ```
 $ cd /Users/Bob/Documents/Projects/XmlAuthoring
 ```
-* Determine the location of the "origin" Git repository for that client's working directory (ask the account manager).
 
-Given a client, we may or may not already have their working directory set up.
+Given a client, we may or may not already have their working directory set up as a git repository in the cloud.
 
 ### Using an existing working directory.
 
+
+* Determine the location of the "origin" Git repository for that client's working directory (ask the account manager).
 * Run `git clone` to get a local copy of the client's working directory
 * Use `cd` to change into the working directory.
 * Run `composer update` to ensure that all the dependent files are installed.
