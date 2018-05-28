@@ -34,7 +34,7 @@ We assume that you have installed :
   * (with [Git LFS](https://www.atlassian.com/git/tutorials/git-lfs) enabled)
 * [Composer](https://getcomposer.org/doc/00-intro.md) (installed globally)
 
-## Navigate to your projects directory
+## Navigate to your `Projects` directory
 
 * On your workstation, open MacOs Terminal or Windows Git Bash
 * Navigate to the folder on your computer where you keep Xml authoring projects. 
