@@ -1,11 +1,11 @@
 
 
-# xml-authoring-directory
+# xml-authoring-project
 A structured directory where we build and store xmls.
 
 This acts as a project template which forms the base for creating an xml-authoring-directory for a particular client.
 
-# Who needs this anyway?
+## Who needs this anyway?
 
 So, you are a staff member who is responsible for editing a client's Xml files.
 
@@ -15,7 +15,7 @@ We use Git SCM to track changes to the files within this directory.
 
 Each instance of this [xml-authoring-project](https://github.com/forikal-uk/xml-authoring-project) has a `composer.json` file in the root directory which specifies an ever-increasing set of custom software tools that can speed up your most repetitive tasks.
 
-## Custom software tools
+### Custom software tools
 
 These tools have been built to work in the context of this xml-authoring-project. 
 
