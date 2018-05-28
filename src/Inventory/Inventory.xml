@@ -12,8 +12,10 @@
 			<InventoryContainerID></InventoryContainerID>
 
 			<Name>foo</Name>
-			<Purpose>2</Purpose>
-			<PurposeOther />	
+			<Purposes>
+				<Purpose>2</Purpose>				
+			</Purposes>	
+			<PurposeOther />
 			<InventoryQuantity>0.1</InventoryQuantity>
 			<HandlingStatus></HandlingStatus>
 			<SupplierRegistrationNumber>foo</SupplierRegistrationNumber>
