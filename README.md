@@ -50,7 +50,7 @@ Given a client, we may or may not already have their working directory set up as
 * Determine the location of the "origin" Git repository for that client's working directory (ask the account manager).
 * Run `git clone` to get a local copy of the client's working directory
 * Use `cd` to change into the working directory.
-* Run `composer update` to ensure that all the dependent files are installed.
+
 
 Now, you should be able to work on the Xml files.
 
@@ -74,6 +74,9 @@ origin	git@github.com:path/to/git/repo.git (fetch)
 origin	git@github.com:path/to/git/repo.git (push)
 ```
 * `git push` to push the base project up to the client's `origin` repository.
+
+## Ensure the tools are installed
+
 * Run `composer update` to ensure that all the tools are installed.
 
 Now, you should be able to work on the Xml files.
