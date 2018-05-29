@@ -1,1 +1,6 @@
+/bin/*
 /vendor/
+
+# Tools
+/scapesettings.yml
+/HelloWorld.txt
