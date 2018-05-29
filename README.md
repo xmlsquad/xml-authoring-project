@@ -17,7 +17,7 @@ Each instance of this [xml-authoring-project](https://github.com/forikal-uk/xml-
 
 ### Custom software tools
 
-These tools have been built to work in the context of this xml-authoring-project. 
+[These tools](https://github.com/forikal-uk/xml-authoring-tools) have been built to work in the context of this xml-authoring-project. 
 
 We will use software tools to:
 
