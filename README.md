@@ -7,7 +7,7 @@ This acts as a project template which forms the base for creating an xml-authori
 
 ## Who needs this anyway?
 
-So, you are a staff member who is responsible for editing a client's Xml files.
+So, you are a staff member who is responsible for creating and editing a client's Xml files.
 
 We have a client who wants some Xmls authored. We need to set up a folder on your computer that acts as a 'working directory' for the client's Xml project. 
 
