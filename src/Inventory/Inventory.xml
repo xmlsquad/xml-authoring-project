@@ -16,7 +16,7 @@
 			<Purposes>
 				<Purpose>11</Purpose>				
 			</Purposes>	
-			<PurposeOther />
+			<PurposeOther></PurposeOther>
 			<InventoryQuantity>99.00</InventoryQuantity>
 			<HandlingStatus></HandlingStatus>
 			<SupplierRegistrationNumber>foo</SupplierRegistrationNumber>
@@ -33,7 +33,7 @@
 			<Purposes>
 				<Purpose>2</Purpose>				
 			</Purposes>	
-			<PurposeOther />
+			<PurposeOther></PurposeOther>
 			<InventoryQuantity>99.00</InventoryQuantity>
 			<HandlingStatus></HandlingStatus>
 			<SupplierRegistrationNumber>foo</SupplierRegistrationNumber>
@@ -55,7 +55,7 @@
 			<Purposes>
 				<Purpose>11</Purpose>				
 			</Purposes>	
-			<PurposeOther />
+			<PurposeOther></PurposeOther>
 			<InventoryQuantity>30.00</InventoryQuantity>
 			<HandlingStatus></HandlingStatus>
 			<SupplierRegistrationNumber>bat</SupplierRegistrationNumber>
@@ -72,7 +72,7 @@
 			<Purposes>
 				<Purpose>2</Purpose>				
 			</Purposes>	
-			<PurposeOther />
+			<PurposeOther></PurposeOther>
 			<InventoryQuantity>40.00</InventoryQuantity>
 			<HandlingStatus></HandlingStatus>
 			<SupplierRegistrationNumber>foo</SupplierRegistrationNumber>
