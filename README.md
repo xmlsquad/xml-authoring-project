@@ -83,6 +83,30 @@ Now, you should be able to work on the Xml files.
 
 Once your edits are finished, use `git` to commit your changes to the `origin`.
 
+## Configure the tools
+
+As the end user, you will need to add some configuration files to the root of the project:
+
+### Connecting to GSuite
+
+NOTE: At the time of writing we have [2 sub-projects that are connecting to GSuite](https://github.com/forikal-uk?tab=repositories). Each project's developer has been given freedom to solve the issue of Google API authentication as they need. In the next few hours, I will look at all solutions and pick one to be the definitive method.
+
+In the mean time, you could copy the pattern used by another devloper to determine where your credential files will be stored.
+
+Check the project's dev branches and pull requests. The one's that connect to GSuite are: 
+
+* [gsheet-to-xml](https://github.com/forikal-uk/gsheet-to-xml) - Given the url of a Google Sheet, this Symfony Console command fetches the Google Sheet and outputs it in the form of Xml.
+* [ping-drive](https://github.com/forikal-uk/ping-drive) - Symfony Console command that reports its attempts at locating and reading the contents of a Google Drive folder or file.
+
+A third sub project is being built called:
+* [capture-lookups](https://github.com/forikal-uk/capture-lookups) - A Symfony 3.4 Console command. When given configuration file listing URLs of Google Sheets, grabs them and stores them locally as CSV files.
+
+We have a library for shared code at:
+* [xml-authoring-library](https://github.com/forikal-uk/xml-authoring-library)
+
+### scapesettings.yaml
+
+One instance of an xml-authoring-project is created for each of our company's clients. This configuration file is used to store client-wide configurations like the location of the client's key files and folders on GSuite. 
 
 # Using the tools
 
