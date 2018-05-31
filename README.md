@@ -77,7 +77,7 @@ origin	git@github.com:path/to/git/repo.git (push)
 
 ## Ensure the tools are installed
 
-* Run `composer update` to ensure that all the tools are installed.
+* Run `composer install` to ensure that all the tools are installed.
 
 Now, you should be able to work on the Xml files.
 
