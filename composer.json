@@ -5,17 +5,56 @@
     "license": "Apache-2.0",
     "repositories-local": [{
         "type": "path",
+        "url": "../xml-authoring-library",
+        "options": {
+            "symlink": false
+        }
+    },{
+        "type": "path",
         "url": "../xml-authoring-tools",
+        "options": {
+            "symlink": false
+        }
+    },{
+        "type": "path",
+        "url": "../xmlauthor-example-command",
+        "options": {
+            "symlink": false
+        }
+    },{
+        "type": "path",
+        "url": "../ping-drive",
+        "options": {
+            "symlink": false
+        }
+    },{
+        "type": "path",
+        "url": "../gsheet-to-xml",
         "options": {
             "symlink": false
         }
     }],
     "repositories": [{
         "type": "vcs",
+        "url": "https://github.com/forikal-uk/xml-authoring-library.git"
+    },{
+        "type": "vcs",
         "url": "https://github.com/forikal-uk/xml-authoring-tools.git"
+    },{
+        "type": "vcs",
+        "url": "https://github.com/forikal-uk/xmlauthor-example-command.git"
+    },{
+        "type": "vcs",
+        "url": "https://github.com/forikal-uk/ping-drive.git"
+    },{
+        "type": "vcs",
+        "url": "https://github.com/forikal-uk/gsheet-to-xml.git"
     }],
     "require": {
-        "forikal-uk/xml-authoring-tools": "^0.1"
+        "forikal-uk/xml-authoring-tools": "^0.2",
+        "forikal-uk/xmlauthor-example-command": "^0.2"
+        "forikal-uk/ping-drive": "^0.2",
+        "forikal-uk/gsheet-to-xml": "^0.2"
     },
     "config": {
         "bin-dir": "bin"
