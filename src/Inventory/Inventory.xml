@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Products>
 	<Product>
+		<Inventory>
 		<StockItem>
 			<KNumberExists>true</KNumberExists>	
 			<KNumber>1111111</KNumber>
@@ -12,11 +13,70 @@
 			<InventoryContainerID></InventoryContainerID>
 
 			<Name>foo</Name>
-			<Purpose>2</Purpose>
-			<PurposeOther />	
-			<InventoryQuantity>0.1</InventoryQuantity>
+			<Purposes>
+				<Purpose>11</Purpose>				
+			</Purposes>	
+			<PurposeOther></PurposeOther>
+			<InventoryQuantity>99.00</InventoryQuantity>
 			<HandlingStatus></HandlingStatus>
 			<SupplierRegistrationNumber>foo</SupplierRegistrationNumber>
 		</StockItem>
+		
+		<StockItem>
+			<KNumberExists>false</KNumberExists>	
+			<KNumber></KNumber>
+			<AdditionalKNumbers></AdditionalKNumbers>
+			<AlternativeNumber>foo</AlternativeNumber>
+			<InventoryContainerID></InventoryContainerID>
+			
+			<Name>foo</Name>
+			<Purposes>
+				<Purpose>2</Purpose>				
+			</Purposes>	
+			<PurposeOther></PurposeOther>
+			<InventoryQuantity>99.00</InventoryQuantity>
+			<HandlingStatus></HandlingStatus>
+			<SupplierRegistrationNumber>foo</SupplierRegistrationNumber>
+		</StockItem>
+		</Inventory>	
+	</Product>
+
+
+	<Product>
+		<Inventory>
+		<StockItem>
+			<KNumberExists>true</KNumberExists>	
+			<KNumber>4444444</KNumber>
+			<AdditionalKNumbers></AdditionalKNumbers>
+			<AlternativeNumber></AlternativeNumber>
+			<InventoryContainerID></InventoryContainerID>
+
+			<Name>bar</Name>
+			<Purposes>
+				<Purpose>11</Purpose>				
+			</Purposes>	
+			<PurposeOther></PurposeOther>
+			<InventoryQuantity>30.00</InventoryQuantity>
+			<HandlingStatus></HandlingStatus>
+			<SupplierRegistrationNumber>bat</SupplierRegistrationNumber>
+		</StockItem>
+		
+		<StockItem>
+			<KNumberExists>false</KNumberExists>	
+			<KNumber></KNumber>
+			<AdditionalKNumbers></AdditionalKNumbers>
+			<AlternativeNumber>baz</AlternativeNumber>
+			<InventoryContainerID></InventoryContainerID>
+			
+			<Name>foo</Name>
+			<Purposes>
+				<Purpose>2</Purpose>				
+			</Purposes>	
+			<PurposeOther></PurposeOther>
+			<InventoryQuantity>40.00</InventoryQuantity>
+			<HandlingStatus></HandlingStatus>
+			<SupplierRegistrationNumber>foo</SupplierRegistrationNumber>
+		</StockItem>
+		</Inventory>	
 	</Product>
 </Products>	

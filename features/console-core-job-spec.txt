@@ -1,0 +1,38 @@
+I have a blank, open source, project hosted on Github at:  forikal-uk/xml-authoring-tools where I wish to develop a console tool which can run a series of custom commands that will be commissioned from Upwork freelancers.
+
+The xml-authoring-tools console application will be 'used' in the context of a structured directory which is defined in a Github project at: forikal-uk/xml-authoring-project.
+
+The "xml-authoring-project" (in which the console tool will be invoked) has a structured which defines a 'scapesettings' configuration file in the root folder of the project. This configuration file will contain the default values of certain optional console options. 
+
+I would like you to create an "xml-authoring-tools" console application using PHP's Symfony 3.4 console package which has a 'hello world' command that:
+
+* Writes out "Hello World <name>" into an text file named "HelloWorld.txt" in the directory defined as the "targetDirectory"
+** Where "<name>" is the value of the "name" configuration key as specified in the 'scapesettings' configuration file which resides in the root of the context directory.
+** If no configuration file is found in the current directory, look for it in the parent directory recurcively.
+** If no configuration file is found at after iterating through parent directories, throw an error and halt the script "Configuration file not found." 
+** Where "targetDirectory" is an optional option passed to the command.
+** If "targetDirectory" is not passed as an option, the default "targetDirectory" is set to the current working directory in which the command was invoked. For example, if the working directory is "/users/foo" and the script resides in "/users/foo/bar", then when the command is invoked, then "targetDirectory" is set to "/users/foo".
+** If "HelloWorld.txt" already exists in the "targetDirectory" write a warning to STD_OUT "[HelloWorld.txt] already exists."  and return without error. 
+** If "HelloWorld.txt" is written to the "targetDirectory" write a notice to STD_OUT "[HelloWorld.txt] successfully written."  and return without error.
+
+Please build your code and publish it on Github using Apache 2.0 licence. 
+
+
+Furthermore:
+
+I would like you to use your knowledge of composer project settings to ensure that this console application
+
+* can be installed using composer require statement
+* should be treated as a vendor binary: See https://getcomposer.org/doc/articles/vendor-binaries.md
+
+# Most importantly
+
+The idea behind this console application is to be easily extendible so that other freelancers can write commands for it.
+
+So, please could you provide instructions on the steps required to add further commands to this console application.
+
+i.e Feel free to reuse existing Symfony documentation by referencing the relevant pages.
+
+
+
+
