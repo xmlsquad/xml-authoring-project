@@ -52,7 +52,7 @@
     }],
     "require": {
         "forikal-uk/xml-authoring-tools": "^0.2",
-        "forikal-uk/xmlauthor-example-command": "^0.2"
+        "forikal-uk/xmlauthor-example-command": "^0.2",
         "forikal-uk/ping-drive": "^0.2",
         "forikal-uk/gsheet-to-xml": "^0.2"
     },
