@@ -152,3 +152,20 @@ To update to the latest versions of the tools.
 * First ensure all changes to client files are committed and pushed to the repository
 * In the command terminal, navigate to the root of the client working directory and run `composer update`
 
+## Development Notes
+
+### Composer validation notice is OK
+
+The team [uses a trick](https://github.com/forikal-uk/xml-authoring-project/issues/2#issuecomment-394185484) to check dependencies. This trick leaves a validation warning when the project's `composer.json` file is checked by `composer validate`.
+
+```bash
+$ pwd
+/Users/x/Documents/Projects/XmlAuthoring/xml-authoring-project
+$ composer validate
+./composer.json is valid for simple usage with composer but has
+strict errors that make it unable to be published as a package:
+See https://getcomposer.org/doc/04-schema.md for details on the schema
+The property repositories-local is not defined and the definition does not allow additional properties
+```
+
+So, although it might look painful. It is harmless. So, we ignore it. We will remove it once the project is more settled.
