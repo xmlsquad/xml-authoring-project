@@ -713,16 +713,16 @@
         },
         {
             "name": "forikal-uk/xml-authoring-tools",
-            "version": "v0.2.1",
+            "version": "v0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/forikal-uk/xml-authoring-tools.git",
-                "reference": "07024336d515584abb3400d0c5ca1bcb8e83e822"
+                "reference": "768c8cadb23346408c7aac98c2b9f1999f2fd15b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/forikal-uk/xml-authoring-tools/zipball/07024336d515584abb3400d0c5ca1bcb8e83e822",
-                "reference": "07024336d515584abb3400d0c5ca1bcb8e83e822",
+                "url": "https://api.github.com/repos/forikal-uk/xml-authoring-tools/zipball/768c8cadb23346408c7aac98c2b9f1999f2fd15b",
+                "reference": "768c8cadb23346408c7aac98c2b9f1999f2fd15b",
                 "shasum": ""
             },
             "require": {
@@ -755,7 +755,7 @@
                 "Apache-2.0"
             ],
             "description": "PHP Console commands for managing xml files.",
-            "time": "2018-06-06T18:34:23+00:00"
+            "time": "2018-06-06T18:43:18+00:00"
         },
         {
             "name": "forikal-uk/xmlauthor-example-command",
