@@ -12,17 +12,28 @@ This acts as a project template which forms the base for creating an xml-authori
 
 ## Work with commands
 
-* Install dependencies
+### Install dependencies
+
+For users:
 
     ```bash
     composer install
     ```
+    
+Developers may wish to use [`--prefer-source`](https://getcomposer.org/doc/03-cli.md#install) to work on git repositories of dependent components):    
+
+    ```bash
+    composer install --prefer-source
+    ```
+        
 
 * Try example `hello-world` command from `xml-authoring-tools`:
 
     ```bash
-    # Copy example config
-    cp vendor/forikal-uk/xml-authoring-tools/scapesettings.yaml.dist ./scapesettings.yaml
+    # Stream some example content into the config file (creating it if it does not exist) 
+    $ pwd
+    /Users/x/Documents/Projects/XmlAuthoringSuite/xml-authoring-project
+    $ cat vendor/forikal-uk/xmlauthor-example-command/scapesettings.yaml.dist >> scapesettings.yaml
     
     # Try
     bin/console hello-world
