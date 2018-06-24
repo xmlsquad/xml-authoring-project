@@ -12,7 +12,7 @@ This acts as a project template which forms the base for creating an xml-authori
 
 ## Work with commands
 
-### Install dependencies
+### Install dependencies
 
 For users:
 
