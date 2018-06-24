@@ -511,16 +511,16 @@
         },
         {
             "name": "forikal-uk/capture-lookups",
-            "version": "v0.2.0",
+            "version": "v0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/forikal-uk/capture-lookups.git",
-                "reference": "46e3488086507e5852ad947c8a07e0e3541ae1c9"
+                "reference": "efd7111bc2661c1589c59400a9c974494009c16f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/forikal-uk/capture-lookups/zipball/46e3488086507e5852ad947c8a07e0e3541ae1c9",
-                "reference": "46e3488086507e5852ad947c8a07e0e3541ae1c9",
+                "url": "https://api.github.com/repos/forikal-uk/capture-lookups/zipball/efd7111bc2661c1589c59400a9c974494009c16f",
+                "reference": "efd7111bc2661c1589c59400a9c974494009c16f",
                 "shasum": ""
             },
             "require": {
@@ -557,10 +557,10 @@
             ],
             "description": "Grabs Google Sheets and stores their data as CSV files",
             "support": {
-                "source": "https://github.com/forikal-uk/capture-lookups/tree/v0.2.0",
+                "source": "https://github.com/forikal-uk/capture-lookups/tree/v0.2.2",
                 "issues": "https://github.com/forikal-uk/capture-lookups/issues"
             },
-            "time": "2018-06-06T18:29:54+00:00"
+            "time": "2018-06-24T00:06:00+00:00"
         },
         {
             "name": "forikal-uk/gsheet-to-xml",
@@ -658,16 +658,16 @@
         },
         {
             "name": "forikal-uk/xml-authoring-library",
-            "version": "v0.2.3",
+            "version": "v0.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/forikal-uk/xml-authoring-library.git",
-                "reference": "d16725eaf5861bae82510e70c762520701a21c3c"
+                "reference": "072a9291bdd7cc1bdfebfc205dcf7b222bd3be9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/forikal-uk/xml-authoring-library/zipball/d16725eaf5861bae82510e70c762520701a21c3c",
-                "reference": "d16725eaf5861bae82510e70c762520701a21c3c",
+                "url": "https://api.github.com/repos/forikal-uk/xml-authoring-library/zipball/072a9291bdd7cc1bdfebfc205dcf7b222bd3be9a",
+                "reference": "072a9291bdd7cc1bdfebfc205dcf7b222bd3be9a",
                 "shasum": ""
             },
             "require": {
@@ -691,38 +691,25 @@
                     "Forikal\\Library\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Forikal\\Library\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "phpunit"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
             "description": "Holding code that is reused by more than one component of the forikal xml authoring suite of projects.",
-            "support": {
-                "source": "https://github.com/forikal-uk/xml-authoring-library/tree/v0.2.3",
-                "issues": "https://github.com/forikal-uk/xml-authoring-library/issues"
-            },
-            "time": "2018-06-03T08:24:56+00:00"
+            "time": "2018-06-24T00:09:26+00:00"
         },
         {
             "name": "forikal-uk/xml-authoring-tools",
-            "version": "v0.2.1",
+            "version": "v0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/forikal-uk/xml-authoring-tools.git",
-                "reference": "07024336d515584abb3400d0c5ca1bcb8e83e822"
+                "reference": "768c8cadb23346408c7aac98c2b9f1999f2fd15b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/forikal-uk/xml-authoring-tools/zipball/07024336d515584abb3400d0c5ca1bcb8e83e822",
-                "reference": "07024336d515584abb3400d0c5ca1bcb8e83e822",
+                "url": "https://api.github.com/repos/forikal-uk/xml-authoring-tools/zipball/768c8cadb23346408c7aac98c2b9f1999f2fd15b",
+                "reference": "768c8cadb23346408c7aac98c2b9f1999f2fd15b",
                 "shasum": ""
             },
             "require": {
@@ -755,20 +742,20 @@
                 "Apache-2.0"
             ],
             "description": "PHP Console commands for managing xml files.",
-            "time": "2018-06-06T18:34:23+00:00"
+            "time": "2018-06-06T18:43:18+00:00"
         },
         {
             "name": "forikal-uk/xmlauthor-example-command",
-            "version": "v0.2.0",
+            "version": "v0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/forikal-uk/xmlauthor-example-command.git",
-                "reference": "dc9a6df681cbe7e0d479f4999e925b2a3cee56b8"
+                "reference": "b76bb0ce4b43f88f8e8b973a2550ac8e7b07c306"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/forikal-uk/xmlauthor-example-command/zipball/dc9a6df681cbe7e0d479f4999e925b2a3cee56b8",
-                "reference": "dc9a6df681cbe7e0d479f4999e925b2a3cee56b8",
+                "url": "https://api.github.com/repos/forikal-uk/xmlauthor-example-command/zipball/b76bb0ce4b43f88f8e8b973a2550ac8e7b07c306",
+                "reference": "b76bb0ce4b43f88f8e8b973a2550ac8e7b07c306",
                 "shasum": ""
             },
             "require": {
@@ -793,33 +780,25 @@
                     "Forikal\\Example\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Forikal\\Example\\Tests\\": "tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
             "description": "Example command for managing xml files.",
-            "support": {
-                "source": "https://github.com/forikal-uk/xmlauthor-example-command/tree/master",
-                "issues": "https://github.com/forikal-uk/xmlauthor-example-command/issues"
-            },
-            "time": "2018-06-01T13:42:41+00:00"
+            "time": "2018-06-24T00:39:38+00:00"
         },
         {
             "name": "google/apiclient",
-            "version": "v2.2.1",
+            "version": "v2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/google-api-php-client.git",
-                "reference": "b69b8ac4bf6501793c389d4e013a79d09c85c5f2"
+                "reference": "4e0fd83510e579043e10e565528b323b7c2b3c81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/b69b8ac4bf6501793c389d4e013a79d09c85c5f2",
-                "reference": "b69b8ac4bf6501793c389d4e013a79d09c85c5f2",
+                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/4e0fd83510e579043e10e565528b323b7c2b3c81",
+                "reference": "4e0fd83510e579043e10e565528b323b7c2b3c81",
                 "shasum": ""
             },
             "require": {
@@ -834,7 +813,7 @@
             },
             "require-dev": {
                 "cache/filesystem-adapter": "^0.3.2",
-                "phpunit/phpunit": "~4",
+                "phpunit/phpunit": "~4.8.36",
                 "squizlabs/php_codesniffer": "~2.3",
                 "symfony/css-selector": "~2.1",
                 "symfony/dom-crawler": "~2.1"
@@ -865,20 +844,20 @@
             "keywords": [
                 "google"
             ],
-            "time": "2017-11-03T01:19:53+00:00"
+            "time": "2018-06-20T15:52:20+00:00"
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.62",
+            "version": "v0.63",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/google-api-php-client-services.git",
-                "reference": "a3c342e711aaf61f83b1ef9de7a6685446a409e7"
+                "reference": "a009a33246e90bf1f60f745f8e47039ac5a87fdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/google-api-php-client-services/zipball/a3c342e711aaf61f83b1ef9de7a6685446a409e7",
-                "reference": "a3c342e711aaf61f83b1ef9de7a6685446a409e7",
+                "url": "https://api.github.com/repos/google/google-api-php-client-services/zipball/a009a33246e90bf1f60f745f8e47039ac5a87fdf",
+                "reference": "a009a33246e90bf1f60f745f8e47039ac5a87fdf",
                 "shasum": ""
             },
             "require": {
@@ -902,7 +881,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2018-05-31T00:23:15+00:00"
+            "time": "2018-06-07T00:22:54+00:00"
         },
         {
             "name": "google/auth",
@@ -1212,16 +1191,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.14",
+            "version": "v2.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "f6ce7dd93628088e1017fb5dd73b0b9fec7df9e5"
+                "reference": "10bcb46e8f3d365170f6de9d05245aa066b81f09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/f6ce7dd93628088e1017fb5dd73b0b9fec7df9e5",
-                "reference": "f6ce7dd93628088e1017fb5dd73b0b9fec7df9e5",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/10bcb46e8f3d365170f6de9d05245aa066b81f09",
+                "reference": "10bcb46e8f3d365170f6de9d05245aa066b81f09",
                 "shasum": ""
             },
             "require": {
@@ -1257,7 +1236,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2018-06-06T17:40:22+00:00"
+            "time": "2018-06-08T15:26:40+00:00"
         },
         {
             "name": "phpseclib/phpseclib",
