@@ -16,15 +16,15 @@ This acts as a project template which forms the base for creating an xml-authori
 
 For users:
 
-    ```bash
-    composer install
-    ```
+```bash
+$ composer install
+```
     
 Developers may wish to use [`--prefer-source`](https://getcomposer.org/doc/03-cli.md#install) to work on git repositories of dependent components):    
 
-    ```bash
-    composer install --prefer-source
-    ```
+```bash
+$ composer install --prefer-source
+```
         
 
 * Try example `hello-world` command from `xml-authoring-tools`:
