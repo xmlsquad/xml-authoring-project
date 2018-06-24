@@ -22,7 +22,7 @@ This acts as a project template which forms the base for creating an xml-authori
 
     ```bash
     # Copy example config
-    cp vendor/forikal-uk/xml-authoring-tools/scapesettings.yml.dist ./scapesettings.yml
+    cp vendor/forikal-uk/xml-authoring-tools/scapesettings.yaml.dist ./scapesettings.yaml
     
     # Try
     bin/console hello-world
