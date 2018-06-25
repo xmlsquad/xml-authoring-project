@@ -36,9 +36,16 @@
     }],
 
     "require": {
-        "forikal-uk/xml-authoring-tools": "dev-master"
+        "forikal-uk/xml-authoring-tools": "dev-master",
+        "forikal-uk/xmlauthor-example-command": "@dev",
+        "forikal-uk/ping-drive": "@dev",
+        "forikal-uk/gsheet-to-xml": "@dev",
+        "forikal-uk/capture-lookups": "@dev",
+        "forikal-uk/xml-authoring-library": "@dev"
     },
     "config": {
         "bin-dir": "bin"
-    }
+    },
+    "minimum-stability": "alpha",
+    "prefer-stable": true
 }
