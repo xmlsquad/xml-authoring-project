@@ -36,11 +36,7 @@
     }],
 
     "require": {
-        "forikal-uk/xml-authoring-tools": "^0.2",
-        "forikal-uk/xmlauthor-example-command": "^0.2",
-        "forikal-uk/ping-drive": "^0.2",
-        "forikal-uk/gsheet-to-xml": "^0.2",
-        "forikal-uk/capture-lookups": "^0.2"
+        "forikal-uk/xml-authoring-tools": "^0.2"
     },
     "config": {
         "bin-dir": "bin"
