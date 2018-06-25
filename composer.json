@@ -1,5 +1,5 @@
 {
-    "name": "forikal-uk/xml-authoring-project",
+    "name": "xmlsquad/xml-authoring-project",
     "description": "Structured directory where xmls get created, read, updaated or deleted.",
     "type": "project",
     "license": "Apache-2.0",
@@ -36,12 +36,12 @@
     }],
 
     "require": {
-        "forikal-uk/xml-authoring-tools": "dev-master",
-        "forikal-uk/xmlauthor-example-command": "@dev",
-        "forikal-uk/ping-drive": "@dev",
-        "forikal-uk/gsheet-to-xml": "@dev",
-        "forikal-uk/capture-lookups": "@dev",
-        "forikal-uk/xml-authoring-library": "@dev"
+        "xmlsquad/xml-authoring-tools": "dev-master",
+        "xmlsquad/xmlauthor-example-command": "@dev",
+        "xmlsquad/ping-drive": "@dev",
+        "xmlsquad/gsheet-to-xml": "@dev",
+        "xmlsquad/capture-lookups": "@dev",
+        "xmlsquad/xml-authoring-library": "@dev"
     },
     "config": {
         "bin-dir": "bin"

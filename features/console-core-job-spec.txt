@@ -1,6 +1,6 @@
-I have a blank, open source, project hosted on Github at:  forikal-uk/xml-authoring-tools where I wish to develop a console tool which can run a series of custom commands that will be commissioned from Upwork freelancers.
+I have a blank, open source, project hosted on Github at:  xmlsquad/xml-authoring-tools where I wish to develop a console tool which can run a series of custom commands that will be commissioned from Upwork freelancers.
 
-The xml-authoring-tools console application will be 'used' in the context of a structured directory which is defined in a Github project at: forikal-uk/xml-authoring-project.
+The xml-authoring-tools console application will be 'used' in the context of a structured directory which is defined in a Github project at: xmlsquad/xml-authoring-project.
 
 The "xml-authoring-project" (in which the console tool will be invoked) has a structured which defines a 'scapesettings' configuration file in the root folder of the project. This configuration file will contain the default values of certain optional console options. 
 
