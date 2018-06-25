@@ -34,10 +34,7 @@
             "symlink": false
         }
     }],
-    "repositories": [{
-        "type": "vcs",
-        "url": "https://github.com/forikal-uk/capture-lookups.git"
-    }],
+
     "require": {
         "forikal-uk/xml-authoring-tools": "^0.2",
         "forikal-uk/xmlauthor-example-command": "^0.2",
