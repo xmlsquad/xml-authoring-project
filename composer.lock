@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d50d7c47b6d1d5a77efef6d524eeda1",
+    "content-hash": "a4410d4666a39ea0495eaa804df4ee8f",
     "packages": [
         {
             "name": "firebase/php-jwt",
@@ -51,278 +51,6 @@
             "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
             "homepage": "https://github.com/firebase/php-jwt",
             "time": "2017-06-27T22:17:23+00:00"
-        },
-        {
-            "name": "forikal-uk/capture-lookups",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/xmlsquad/capture-lookups.git",
-                "reference": "255bcdef02e34cb68ee52d14db658356d43ffced"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/capture-lookups/zipball/255bcdef02e34cb68ee52d14db658356d43ffced",
-                "reference": "255bcdef02e34cb68ee52d14db658356d43ffced",
-                "shasum": ""
-            },
-            "require": {
-                "forikal-uk/xml-authoring-library": "dev-master",
-                "google/apiclient": "^2.0",
-                "php": ">=7.1",
-                "symfony/console": "^3.4",
-                "symfony/filesystem": "^3.4",
-                "symfony/yaml": "^3.4"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.11",
-                "phpunit/phpunit": "^7.1"
-            },
-            "bin": [
-                "bin/capture-lookups"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": null
-            },
-            "autoload": {
-                "psr-4": {
-                    "Forikal\\CaptureLookups\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "Grabs Google Sheets and stores their data as CSV files",
-            "time": "2018-06-25T02:20:24+00:00"
-        },
-        {
-            "name": "forikal-uk/gsheet-to-xml",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/xmlsquad/gsheet-to-xml.git",
-                "reference": "bdcb26af1cee12a04d137ac7b933cea863d5595a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/gsheet-to-xml/zipball/bdcb26af1cee12a04d137ac7b933cea863d5595a",
-                "reference": "bdcb26af1cee12a04d137ac7b933cea863d5595a",
-                "shasum": ""
-            },
-            "require": {
-                "forikal-uk/xml-authoring-library": "dev-master",
-                "google/apiclient": "^2.0",
-                "php": ">=7.1",
-                "symfony/console": "~3.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^7.1"
-            },
-            "bin": [
-                "bin/gsheet-to-xml.php"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Forikal\\GsheetXml\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Zoran Antolovic",
-                    "email": "zoran.antolovic.os@gmail.com"
-                }
-            ],
-            "description": "Command for parsing Google Drive URLs and converting sheets to XML.",
-            "time": "2018-06-25T02:52:35+00:00"
-        },
-        {
-            "name": "forikal-uk/ping-drive",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/xmlsquad/ping-drive.git",
-                "reference": "be6bb6ab3b3f12e4c303a43c6a044324bef8b57e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/ping-drive/zipball/be6bb6ab3b3f12e4c303a43c6a044324bef8b57e",
-                "reference": "be6bb6ab3b3f12e4c303a43c6a044324bef8b57e",
-                "shasum": ""
-            },
-            "require": {
-                "forikal-uk/xml-authoring-library": "dev-master",
-                "google/apiclient": "^2.0",
-                "php": ">=7.1",
-                "symfony/console": "^3.4",
-                "symfony/filesystem": "^3.4",
-                "symfony/yaml": "^3.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^7.1"
-            },
-            "bin": [
-                "bin/ping-drive"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Forikal\\PingDrive\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Surgie Finesse",
-                    "email": "finesserus@gmail.com"
-                }
-            ],
-            "description": "Symfony Console command that reports its attempts at locating and reading the contents of a Google Drive folder or file",
-            "time": "2018-06-25T02:13:12+00:00"
-        },
-        {
-            "name": "forikal-uk/xml-authoring-library",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/forikal-uk/xml-authoring-library.git",
-                "reference": "d9e33aaae40d5e0952eea59e530319827c2649ad"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/forikal-uk/xml-authoring-library/zipball/d9e33aaae40d5e0952eea59e530319827c2649ad",
-                "reference": "d9e33aaae40d5e0952eea59e530319827c2649ad",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1",
-                "psr/log": "^1.0",
-                "symfony/console": "^3.4",
-                "symfony/filesystem": "^3.4",
-                "symfony/yaml": "^3.4"
-            },
-            "require-dev": {
-                "google/apiclient": "^2.0",
-                "phpunit/phpunit": "^7.1"
-            },
-            "suggest": {
-                "forikal-uk/xmlauthor-example-command": "To see example how to use AbstractCommand",
-                "google/apiclient": "To use the Google API helper (version ^2.0 is required)"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Forikal\\Library\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "Holding code that is reused by more than one component of the forikal xml authoring suite of projects.",
-            "time": "2018-06-24T10:42:18+00:00"
-        },
-        {
-            "name": "forikal-uk/xml-authoring-tools",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/xmlsquad/xml-authoring-tools.git",
-                "reference": "cf13a7057a5a28356e8fdb386599a2e2ca1bce6f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/xml-authoring-tools/zipball/cf13a7057a5a28356e8fdb386599a2e2ca1bce6f",
-                "reference": "cf13a7057a5a28356e8fdb386599a2e2ca1bce6f",
-                "shasum": ""
-            },
-            "require": {
-                "forikal-uk/capture-lookups": "dev-master",
-                "forikal-uk/gsheet-to-xml": "dev-master",
-                "forikal-uk/ping-drive": "dev-master",
-                "forikal-uk/xmlauthor-example-command": "dev-master",
-                "php": ">=7.1",
-                "symfony/console": "^3.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^7.1"
-            },
-            "suggest": {
-                "forikal-uk/capture-lookups": "Grabs Google Sheets and stores their data as CSV files",
-                "forikal-uk/gsheet-to-xml": "Outputs the contents in the form of Xml from Google Sheet or Google Drive folder of sheets",
-                "forikal-uk/ping-drive": "Reports its attempts at locating and reading the contents of a Google Drive folder or file",
-                "forikal-uk/xmlauthor-example-command": "To see example how to use AbstractCommand"
-            },
-            "bin": [
-                "bin/console"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": null
-            },
-            "autoload": {
-                "psr-4": {
-                    "Forikal\\Tools\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "PHP Console commands for managing xml files.",
-            "time": "2018-06-25T02:05:51+00:00"
-        },
-        {
-            "name": "forikal-uk/xmlauthor-example-command",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/xmlsquad/xmlauthor-example-command.git",
-                "reference": "b447d4ebdb9cec6e54ba648da1dafbb8b431edfd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/xmlauthor-example-command/zipball/b447d4ebdb9cec6e54ba648da1dafbb8b431edfd",
-                "reference": "b447d4ebdb9cec6e54ba648da1dafbb8b431edfd",
-                "shasum": ""
-            },
-            "require": {
-                "forikal-uk/xml-authoring-library": "dev-master",
-                "php": ">=7.1",
-                "symfony/console": "^3.4",
-                "symfony/filesystem": "^3.4",
-                "symfony/yaml": "^3.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^7.1"
-            },
-            "bin": [
-                "bin/hello-world"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": null
-            },
-            "autoload": {
-                "psr-4": {
-                    "Forikal\\Example\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "Example command for managing xml files.",
-            "time": "2018-06-25T02:22:37+00:00"
         },
         {
             "name": "google/apiclient",
@@ -1308,18 +1036,290 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2018-05-03T23:18:14+00:00"
+        },
+        {
+            "name": "xmlsquad/capture-lookups",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xmlsquad/capture-lookups.git",
+                "reference": "96512b93aab858cefb0f5af00538518ba32a6c43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xmlsquad/capture-lookups/zipball/96512b93aab858cefb0f5af00538518ba32a6c43",
+                "reference": "96512b93aab858cefb0f5af00538518ba32a6c43",
+                "shasum": ""
+            },
+            "require": {
+                "google/apiclient": "^2.0",
+                "php": ">=7.1",
+                "symfony/console": "^3.4",
+                "symfony/filesystem": "^3.4",
+                "symfony/yaml": "^3.4",
+                "xmlsquad/xml-authoring-library": "dev-master"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.11",
+                "phpunit/phpunit": "^7.1"
+            },
+            "bin": [
+                "bin/capture-lookups"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": null
+            },
+            "autoload": {
+                "psr-4": {
+                    "XmlSquad\\CaptureLookups\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Grabs Google Sheets and stores their data as CSV files",
+            "time": "2018-06-25T06:07:55+00:00"
+        },
+        {
+            "name": "xmlsquad/gsheet-to-xml",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xmlsquad/gsheet-to-xml.git",
+                "reference": "c3aea8c1ce6564bd6d2e54b5a2bd600c46c5e9f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xmlsquad/gsheet-to-xml/zipball/c3aea8c1ce6564bd6d2e54b5a2bd600c46c5e9f0",
+                "reference": "c3aea8c1ce6564bd6d2e54b5a2bd600c46c5e9f0",
+                "shasum": ""
+            },
+            "require": {
+                "google/apiclient": "^2.0",
+                "php": ">=7.1",
+                "symfony/console": "~3.4",
+                "xmlsquad/xml-authoring-library": "dev-master"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.1"
+            },
+            "bin": [
+                "bin/gsheet-to-xml.php"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "XmlSquad\\GsheetXml\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Zoran Antolovic",
+                    "email": "zoran.antolovic.os@gmail.com"
+                }
+            ],
+            "description": "Command for parsing Google Drive URLs and converting sheets to XML.",
+            "time": "2018-06-25T06:19:48+00:00"
+        },
+        {
+            "name": "xmlsquad/ping-drive",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xmlsquad/ping-drive.git",
+                "reference": "fa711b8ca75c42e10f7d3bbd612b6f50ac328a38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xmlsquad/ping-drive/zipball/fa711b8ca75c42e10f7d3bbd612b6f50ac328a38",
+                "reference": "fa711b8ca75c42e10f7d3bbd612b6f50ac328a38",
+                "shasum": ""
+            },
+            "require": {
+                "google/apiclient": "^2.0",
+                "php": ">=7.1",
+                "symfony/console": "^3.4",
+                "symfony/filesystem": "^3.4",
+                "symfony/yaml": "^3.4",
+                "xmlsquad/xml-authoring-library": "dev-master"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.1"
+            },
+            "bin": [
+                "bin/ping-drive"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "XmlSquad\\PingDrive\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Surgie Finesse",
+                    "email": "finesserus@gmail.com"
+                }
+            ],
+            "description": "Symfony Console command that reports its attempts at locating and reading the contents of a Google Drive folder or file",
+            "time": "2018-06-25T06:26:18+00:00"
+        },
+        {
+            "name": "xmlsquad/xml-authoring-library",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xmlsquad/xml-authoring-library.git",
+                "reference": "4450f3f298dd27dcdfc7d547114df321ea80e261"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xmlsquad/xml-authoring-library/zipball/4450f3f298dd27dcdfc7d547114df321ea80e261",
+                "reference": "4450f3f298dd27dcdfc7d547114df321ea80e261",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1",
+                "psr/log": "^1.0",
+                "symfony/console": "^3.4",
+                "symfony/filesystem": "^3.4",
+                "symfony/yaml": "^3.4"
+            },
+            "require-dev": {
+                "google/apiclient": "^2.0",
+                "phpunit/phpunit": "^7.1"
+            },
+            "suggest": {
+                "google/apiclient": "To use the Google API helper (version ^2.0 is required)",
+                "xmlsquad/xmlauthor-example-command": "To see example how to use AbstractCommand"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "XmlSquad\\Library\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Holding code that is reused by more than one component of the xmlsquad xml authoring suite of projects.",
+            "time": "2018-06-25T06:34:30+00:00"
+        },
+        {
+            "name": "xmlsquad/xml-authoring-tools",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xmlsquad/xml-authoring-tools.git",
+                "reference": "514edd40a5462df7297f3818f2466df993dff254"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xmlsquad/xml-authoring-tools/zipball/514edd40a5462df7297f3818f2466df993dff254",
+                "reference": "514edd40a5462df7297f3818f2466df993dff254",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1",
+                "symfony/console": "^3.4",
+                "xmlsquad/capture-lookups": "dev-master",
+                "xmlsquad/gsheet-to-xml": "dev-master",
+                "xmlsquad/ping-drive": "dev-master",
+                "xmlsquad/xmlauthor-example-command": "dev-master"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.1"
+            },
+            "suggest": {
+                "xmlsquad/capture-lookups": "Grabs Google Sheets and stores their data as CSV files",
+                "xmlsquad/gsheet-to-xml": "Outputs the contents in the form of Xml from Google Sheet or Google Drive folder of sheets",
+                "xmlsquad/ping-drive": "Reports its attempts at locating and reading the contents of a Google Drive folder or file",
+                "xmlsquad/xmlauthor-example-command": "To see example how to use AbstractCommand"
+            },
+            "bin": [
+                "bin/console"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": null
+            },
+            "autoload": {
+                "psr-4": {
+                    "XmlSquad\\Tools\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "PHP Console commands for managing xml files.",
+            "time": "2018-06-25T06:39:23+00:00"
+        },
+        {
+            "name": "xmlsquad/xmlauthor-example-command",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xmlsquad/xmlauthor-example-command.git",
+                "reference": "aff12309af1af429772d0b8391b58c59a7e90ae8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xmlsquad/xmlauthor-example-command/zipball/aff12309af1af429772d0b8391b58c59a7e90ae8",
+                "reference": "aff12309af1af429772d0b8391b58c59a7e90ae8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1",
+                "symfony/console": "^3.4",
+                "symfony/filesystem": "^3.4",
+                "symfony/yaml": "^3.4",
+                "xmlsquad/xml-authoring-library": "dev-master"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.1"
+            },
+            "bin": [
+                "bin/hello-world"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": null
+            },
+            "autoload": {
+                "psr-4": {
+                    "XmlSquad\\Example\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Example command for managing xml files.",
+            "time": "2018-06-25T06:43:46+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "alpha",
     "stability-flags": {
-        "forikal-uk/xml-authoring-tools": 20,
-        "forikal-uk/xmlauthor-example-command": 20,
-        "forikal-uk/ping-drive": 20,
-        "forikal-uk/gsheet-to-xml": 20,
-        "forikal-uk/capture-lookups": 20,
-        "forikal-uk/xml-authoring-library": 20
+        "xmlsquad/xml-authoring-tools": 20,
+        "xmlsquad/xmlauthor-example-command": 20,
+        "xmlsquad/ping-drive": 20,
+        "xmlsquad/gsheet-to-xml": 20,
+        "xmlsquad/capture-lookups": 20,
+        "xmlsquad/xml-authoring-library": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
