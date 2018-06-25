@@ -36,7 +36,7 @@
     }],
 
     "require": {
-        "forikal-uk/xml-authoring-tools": "^0.2"
+        "forikal-uk/xml-authoring-tools": "dev-master"
     },
     "config": {
         "bin-dir": "bin"
