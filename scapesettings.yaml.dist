@@ -2,3 +2,7 @@
 google:
     clientSecretFile: google-client-secret.json # The path to an application client secret file (relative to this file)
     accessTokenFile: google-access-token.json   # The path to an access token file (relative to this file, optional, the file may not exist)
+
+## For testing xmlauthor-example-command
+hello_world:
+        name: Igor
