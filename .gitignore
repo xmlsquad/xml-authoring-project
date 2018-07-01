@@ -7,3 +7,7 @@
 /scapesettings.yaml
 /HelloWorld.txt
 .idea
+
+# Temporary test folder.
+tests/tmp-test-data/*
+!tests/tmp-test-data/.gitkeep
