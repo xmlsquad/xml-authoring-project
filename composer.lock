@@ -1043,12 +1043,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/xmlsquad/capture-lookups.git",
-                "reference": "96512b93aab858cefb0f5af00538518ba32a6c43"
+                "reference": "041d7a42de1c8d25a265ac378aa99f6f990fd51a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/capture-lookups/zipball/96512b93aab858cefb0f5af00538518ba32a6c43",
-                "reference": "96512b93aab858cefb0f5af00538518ba32a6c43",
+                "url": "https://api.github.com/repos/xmlsquad/capture-lookups/zipball/041d7a42de1c8d25a265ac378aa99f6f990fd51a",
+                "reference": "041d7a42de1c8d25a265ac378aa99f6f990fd51a",
                 "shasum": ""
             },
             "require": {
@@ -1080,7 +1080,7 @@
                 "Apache-2.0"
             ],
             "description": "Grabs Google Sheets and stores their data as CSV files",
-            "time": "2018-06-25T06:07:55+00:00"
+            "time": "2018-07-01T12:56:46+00:00"
         },
         {
             "name": "xmlsquad/gsheet-to-xml",
@@ -1088,12 +1088,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/xmlsquad/gsheet-to-xml.git",
-                "reference": "69dc8dcf55d8534e7a1507cf045f79e29139fe85"
+                "reference": "324fda8461d254a53fb62bc70b571c6a7021e43d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/gsheet-to-xml/zipball/69dc8dcf55d8534e7a1507cf045f79e29139fe85",
-                "reference": "69dc8dcf55d8534e7a1507cf045f79e29139fe85",
+                "url": "https://api.github.com/repos/xmlsquad/gsheet-to-xml/zipball/324fda8461d254a53fb62bc70b571c6a7021e43d",
+                "reference": "324fda8461d254a53fb62bc70b571c6a7021e43d",
                 "shasum": ""
             },
             "require": {
@@ -1125,7 +1125,7 @@
                 }
             ],
             "description": "Command for parsing Google Drive URLs and converting sheets to XML.",
-            "time": "2018-06-26T12:28:56+00:00"
+            "time": "2018-07-01T13:01:10+00:00"
         },
         {
             "name": "xmlsquad/ping-drive",
@@ -1180,12 +1180,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/xmlsquad/xml-authoring-library.git",
-                "reference": "4450f3f298dd27dcdfc7d547114df321ea80e261"
+                "reference": "8f95f59fc33cb2ca1b1bce2388b1f39188627fe4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/xml-authoring-library/zipball/4450f3f298dd27dcdfc7d547114df321ea80e261",
-                "reference": "4450f3f298dd27dcdfc7d547114df321ea80e261",
+                "url": "https://api.github.com/repos/xmlsquad/xml-authoring-library/zipball/8f95f59fc33cb2ca1b1bce2388b1f39188627fe4",
+                "reference": "8f95f59fc33cb2ca1b1bce2388b1f39188627fe4",
                 "shasum": ""
             },
             "require": {
@@ -1214,7 +1214,7 @@
                 "Apache-2.0"
             ],
             "description": "Holding code that is reused by more than one component of the xmlsquad xml authoring suite of projects.",
-            "time": "2018-06-25T06:34:30+00:00"
+            "time": "2018-07-01T13:03:57+00:00"
         },
         {
             "name": "xmlsquad/xml-authoring-tools",
@@ -1272,12 +1272,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/xmlsquad/xmlauthor-example-command.git",
-                "reference": "aff12309af1af429772d0b8391b58c59a7e90ae8"
+                "reference": "86f8175ea76329cd0e16e217a4dd0300b89cc135"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/xmlauthor-example-command/zipball/aff12309af1af429772d0b8391b58c59a7e90ae8",
-                "reference": "aff12309af1af429772d0b8391b58c59a7e90ae8",
+                "url": "https://api.github.com/repos/xmlsquad/xmlauthor-example-command/zipball/86f8175ea76329cd0e16e217a4dd0300b89cc135",
+                "reference": "86f8175ea76329cd0e16e217a4dd0300b89cc135",
                 "shasum": ""
             },
             "require": {
@@ -1307,7 +1307,7 @@
                 "Apache-2.0"
             ],
             "description": "Example command for managing xml files.",
-            "time": "2018-06-25T06:43:46+00:00"
+            "time": "2018-07-01T13:07:24+00:00"
         }
     ],
     "packages-dev": [
