@@ -4,7 +4,7 @@
 /vendor/
 
 # Tools
-/scapesettings.yaml
+/XmlAuthoringProjectSettings.yaml
 /HelloWorld.txt
 .idea
 

@@ -33,7 +33,7 @@ $ composer install --prefer-source
     # Stream some example content into the config file (creating it if it does not exist) 
     $ pwd
     /Users/x/Documents/Projects/XmlAuthoringSuite/xml-authoring-project
-    $ cat vendor/xmlsquad/xmlauthor-example-command/scapesettings.yaml.dist >> scapesettings.yaml
+    $ cat vendor/xmlsquad/xmlauthor-example-command/XmlAuthoringProjectSettings.yaml.dist >> XmlAuthoringProjectSettings.yaml
     
     # Try
     bin/console hello-world
@@ -146,7 +146,7 @@ A third sub project is being built called:
 We have a library for shared code at:
 * [xml-authoring-library](https://github.com/xmlsquad/xml-authoring-library)
 
-### scapesettings.yaml
+### XmlAuthoringProjectSettings.yaml
 
 One instance of an xml-authoring-project is created for each of our company's clients. This configuration file is used to store client-wide configurations like the location of the client's key files and folders on GSuite. 
 

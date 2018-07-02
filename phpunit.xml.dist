@@ -32,7 +32,7 @@
         <testsuite name="xmlauthor-example-command test suite">
 
             <!--
-            Expects `scapesettings.yaml.dist` to have `hello_world` config root.
+            Expects `XmlAuthoringProjectSettings.yaml.dist` to have `hello_world` config root.
             -->
                 <directory>vendor/xmlsquad/xmlauthor-example-command/tests</directory>
             </testsuite>
