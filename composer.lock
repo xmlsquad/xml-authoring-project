@@ -1088,12 +1088,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/xmlsquad/gsheet-to-xml.git",
-                "reference": "967bf84b9808edf4d010a8efcf0df473ce52bac3"
+                "reference": "de7f0d99b5e9eeecc88ae489c943ed72fdfbbec5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/gsheet-to-xml/zipball/967bf84b9808edf4d010a8efcf0df473ce52bac3",
-                "reference": "967bf84b9808edf4d010a8efcf0df473ce52bac3",
+                "url": "https://api.github.com/repos/xmlsquad/gsheet-to-xml/zipball/de7f0d99b5e9eeecc88ae489c943ed72fdfbbec5",
+                "reference": "de7f0d99b5e9eeecc88ae489c943ed72fdfbbec5",
                 "shasum": ""
             },
             "require": {
@@ -1125,7 +1125,7 @@
                 }
             ],
             "description": "Command for parsing Google Drive URLs and converting sheets to XML.",
-            "time": "2018-07-02T02:32:48+00:00"
+            "time": "2018-07-02T03:25:18+00:00"
         },
         {
             "name": "xmlsquad/ping-drive",
@@ -1133,12 +1133,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/xmlsquad/ping-drive.git",
-                "reference": "50ba7703b7a95be53939aa51327272fd303d6fea"
+                "reference": "2d4d1b5e04e290a53d9d7e3a20e1e8967bd35b7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/ping-drive/zipball/50ba7703b7a95be53939aa51327272fd303d6fea",
-                "reference": "50ba7703b7a95be53939aa51327272fd303d6fea",
+                "url": "https://api.github.com/repos/xmlsquad/ping-drive/zipball/2d4d1b5e04e290a53d9d7e3a20e1e8967bd35b7f",
+                "reference": "2d4d1b5e04e290a53d9d7e3a20e1e8967bd35b7f",
                 "shasum": ""
             },
             "require": {
@@ -1172,7 +1172,7 @@
                 }
             ],
             "description": "Symfony Console command that reports its attempts at locating and reading the contents of a Google Drive folder or file",
-            "time": "2018-07-02T02:56:42+00:00"
+            "time": "2018-07-02T03:42:06+00:00"
         },
         {
             "name": "xmlsquad/xml-authoring-library",
@@ -1180,12 +1180,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/xmlsquad/xml-authoring-library.git",
-                "reference": "f65e698c0a7abf159c0b6155ea71195a8f37ad06"
+                "reference": "bbcd7041ca96b7dcf3f4b54a1351da6b670a409e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/xml-authoring-library/zipball/f65e698c0a7abf159c0b6155ea71195a8f37ad06",
-                "reference": "f65e698c0a7abf159c0b6155ea71195a8f37ad06",
+                "url": "https://api.github.com/repos/xmlsquad/xml-authoring-library/zipball/bbcd7041ca96b7dcf3f4b54a1351da6b670a409e",
+                "reference": "bbcd7041ca96b7dcf3f4b54a1351da6b670a409e",
                 "shasum": ""
             },
             "require": {
@@ -1214,7 +1214,7 @@
                 "Apache-2.0"
             ],
             "description": "Holding code that is reused by more than one component of the xmlsquad xml authoring suite of projects.",
-            "time": "2018-07-02T02:57:17+00:00"
+            "time": "2018-07-02T03:42:35+00:00"
         },
         {
             "name": "xmlsquad/xml-authoring-tools",
