@@ -1272,12 +1272,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/xmlsquad/xmlauthor-example-command.git",
-                "reference": "6f9aab494ffed2f8ab5f263882d79e25fbfd3798"
+                "reference": "bde3fbfd4c95c33a502f368c6b50c0948896f684"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/xmlauthor-example-command/zipball/6f9aab494ffed2f8ab5f263882d79e25fbfd3798",
-                "reference": "6f9aab494ffed2f8ab5f263882d79e25fbfd3798",
+                "url": "https://api.github.com/repos/xmlsquad/xmlauthor-example-command/zipball/bde3fbfd4c95c33a502f368c6b50c0948896f684",
+                "reference": "bde3fbfd4c95c33a502f368c6b50c0948896f684",
                 "shasum": ""
             },
             "require": {
@@ -1307,7 +1307,7 @@
                 "Apache-2.0"
             ],
             "description": "Example command for managing xml files.",
-            "time": "2018-07-01T18:18:09+00:00"
+            "time": "2018-07-02T02:57:53+00:00"
         }
     ],
     "packages-dev": [
