@@ -14,7 +14,7 @@
 
         <!--
 
-        Breaks outside of package context if no `credentials_test.json` file.
+        Breaks outside of package context if no `gApiServiceAccountCredentials_test.json` file.
         -->
         <testsuite name="capture-lookup test suite">
             <directory> vendor/xmlsquad/capture-lookups/tests</directory>

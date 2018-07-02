@@ -11,3 +11,7 @@
 # Temporary test folder.
 tests/tmp-test-data/*
 !tests/tmp-test-data/.gitkeep
+
+
+# Configs
+gApiServiceAccountCredentials.json
