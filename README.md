@@ -163,6 +163,38 @@ To update to the latest versions of the tools.
 * First ensure all changes to client files are committed and pushed to the repository
 * In the command terminal, navigate to the root of the client working directory and run `composer update`
 
+## Known bugs
+
+We use OAuth authentication for the `bin/console inventory:gsheet-to-xml` command to access a Google Sheet.
+
+However, when you first run the command, it asks for an Auth code, but does not give any advice on how to get your Auth code.
+
+The workaround is to run a different command, ping-drive, to 'get logged in' and save your authentication token. Once, done, gsheet-to-xml will use that same token to access the Google Sheet.
+
+### Example
+
+Assuming you have a Google OAuth Key and `XmlAuthoringProjectSettings.yaml` defines the OAuth Key (`gApiOAuthSecretFile`) location and the name of the token file (`gApiAccessTokenFile`). 
+
+Ensure you have navigated to the project folder:
+```
+$ pwd
+/Users/x/Documents/Projects/XmlAuthoringSuite/xml-authoring-project
+```
+
+Run `ping-drive`:
+```
+$ bin/console ping-drive  https://drive.google.com/drive/folders/<someFolderID> 
+You need to authenticate to your Google account to proceed
+Open the following URL in a browser, get an auth code and paste it below:
+
+<UrlToGetTheAuthCode>
+
+Auth code: <AuthCode>
+
+``` 
+
+Now you can run the `inventory:gsheet-to-xml` using the token.
+
 ## Development Notes
 
 ### Composer validation notice is OK

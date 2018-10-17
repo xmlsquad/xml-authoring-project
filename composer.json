@@ -36,12 +36,12 @@
     }],
 
     "require": {
-        "xmlsquad/xml-authoring-tools": "dev-master",
-        "xmlsquad/xmlauthor-example-command": "@dev",
-        "xmlsquad/ping-drive": "@dev",
-        "xmlsquad/gsheet-to-xml": "@dev",
-        "xmlsquad/capture-lookups": "@dev",
-        "xmlsquad/xml-authoring-library": "@dev"
+        "xmlsquad/xml-authoring-tools": "0.3.3",
+        "xmlsquad/xmlauthor-example-command": "0.3.3",
+        "xmlsquad/ping-drive": "0.3.3",
+        "xmlsquad/gsheet-to-xml": "0.3.3",
+        "xmlsquad/capture-lookups": "0.3.3",
+        "xmlsquad/xml-authoring-library": "0.3.3"
     },
     "config": {
         "bin-dir": "bin"

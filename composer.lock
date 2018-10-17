@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1038806e015403d8fe778d9ce0b24799",
+    "content-hash": "6531341a13ba0deed833e66bbddf15af",
     "packages": [
         {
             "name": "firebase/php-jwt",
@@ -113,16 +113,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.71",
+            "version": "v0.72",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "f066aac8c0ea88cf5880611d589fd1e01c4fd082"
+                "reference": "e8c6b72963b19e707b8a6c46fe3515207bb03bd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/f066aac8c0ea88cf5880611d589fd1e01c4fd082",
-                "reference": "f066aac8c0ea88cf5880611d589fd1e01c4fd082",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/e8c6b72963b19e707b8a6c46fe3515207bb03bd2",
+                "reference": "e8c6b72963b19e707b8a6c46fe3515207bb03bd2",
                 "shasum": ""
             },
             "require": {
@@ -146,7 +146,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2018-10-09T00:22:49+00:00"
+            "time": "2018-10-13T00:23:17+00:00"
         },
         {
             "name": "google/auth",
@@ -1042,16 +1042,16 @@
         },
         {
             "name": "xmlsquad/capture-lookups",
-            "version": "dev-master",
+            "version": "v0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/xmlsquad/capture-lookups.git",
-                "reference": "96dfc011303773e0b2c29e6f4e6aaa7a4b5f3848"
+                "reference": "6ba1d86114439393584e00e62e9dac90c090dad3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/capture-lookups/zipball/96dfc011303773e0b2c29e6f4e6aaa7a4b5f3848",
-                "reference": "96dfc011303773e0b2c29e6f4e6aaa7a4b5f3848",
+                "url": "https://api.github.com/repos/xmlsquad/capture-lookups/zipball/6ba1d86114439393584e00e62e9dac90c090dad3",
+                "reference": "6ba1d86114439393584e00e62e9dac90c090dad3",
                 "shasum": ""
             },
             "require": {
@@ -1060,7 +1060,7 @@
                 "symfony/console": "^3.4",
                 "symfony/filesystem": "^3.4",
                 "symfony/yaml": "^3.4",
-                "xmlsquad/xml-authoring-library": "dev-master"
+                "xmlsquad/xml-authoring-library": "0.3.3"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.11",
@@ -1083,27 +1083,27 @@
                 "Apache-2.0"
             ],
             "description": "Grabs Google Sheets and stores their data as CSV files",
-            "time": "2018-07-02T02:54:58+00:00"
+            "time": "2018-10-15T06:44:16+00:00"
         },
         {
             "name": "xmlsquad/gsheet-to-xml",
-            "version": "dev-master",
+            "version": "v0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/xmlsquad/gsheet-to-xml.git",
-                "reference": "49615936232bfee651e829caa1ee2449c079a631"
+                "reference": "c4bdd8732fb0557a41a39254c46556e3c86a78f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/gsheet-to-xml/zipball/49615936232bfee651e829caa1ee2449c079a631",
-                "reference": "49615936232bfee651e829caa1ee2449c079a631",
+                "url": "https://api.github.com/repos/xmlsquad/gsheet-to-xml/zipball/c4bdd8732fb0557a41a39254c46556e3c86a78f5",
+                "reference": "c4bdd8732fb0557a41a39254c46556e3c86a78f5",
                 "shasum": ""
             },
             "require": {
                 "google/apiclient": "^2.0",
                 "php": ">=7.1",
                 "symfony/console": "~3.4",
-                "xmlsquad/xml-authoring-library": "dev-master"
+                "xmlsquad/xml-authoring-library": "0.3.3"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7.1"
@@ -1128,20 +1128,20 @@
                 }
             ],
             "description": "Command for parsing Google Drive URLs and converting sheets to XML.",
-            "time": "2018-10-11T08:25:22+00:00"
+            "time": "2018-10-15T07:35:26+00:00"
         },
         {
             "name": "xmlsquad/ping-drive",
-            "version": "dev-master",
+            "version": "v0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/xmlsquad/ping-drive.git",
-                "reference": "00a51706116d848d494ba57361a8650aff83148c"
+                "reference": "9332d5d5f686b48285d2862d00b58ad2b7f954a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/ping-drive/zipball/00a51706116d848d494ba57361a8650aff83148c",
-                "reference": "00a51706116d848d494ba57361a8650aff83148c",
+                "url": "https://api.github.com/repos/xmlsquad/ping-drive/zipball/9332d5d5f686b48285d2862d00b58ad2b7f954a8",
+                "reference": "9332d5d5f686b48285d2862d00b58ad2b7f954a8",
                 "shasum": ""
             },
             "require": {
@@ -1150,7 +1150,7 @@
                 "symfony/console": "^3.4",
                 "symfony/filesystem": "^3.4",
                 "symfony/yaml": "^3.4",
-                "xmlsquad/xml-authoring-library": "dev-master"
+                "xmlsquad/xml-authoring-library": "0.3.3"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7.1"
@@ -1175,20 +1175,20 @@
                 }
             ],
             "description": "Symfony Console command that reports its attempts at locating and reading the contents of a Google Drive folder or file",
-            "time": "2018-07-02T07:47:00+00:00"
+            "time": "2018-10-14T21:49:56+00:00"
         },
         {
             "name": "xmlsquad/xml-authoring-library",
-            "version": "dev-master",
+            "version": "v0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/xmlsquad/xml-authoring-library.git",
-                "reference": "eee0223e6b3025d954d124387aaf24612c7c0e1d"
+                "reference": "cfb0f6592ae7827c9f32547b28102057f899ce70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/xml-authoring-library/zipball/eee0223e6b3025d954d124387aaf24612c7c0e1d",
-                "reference": "eee0223e6b3025d954d124387aaf24612c7c0e1d",
+                "url": "https://api.github.com/repos/xmlsquad/xml-authoring-library/zipball/cfb0f6592ae7827c9f32547b28102057f899ce70",
+                "reference": "cfb0f6592ae7827c9f32547b28102057f899ce70",
                 "shasum": ""
             },
             "require": {
@@ -1217,29 +1217,29 @@
                 "Apache-2.0"
             ],
             "description": "Holding code that is reused by more than one component of the xmlsquad xml authoring suite of projects.",
-            "time": "2018-10-11T15:50:45+00:00"
+            "time": "2018-10-14T09:39:27+00:00"
         },
         {
             "name": "xmlsquad/xml-authoring-tools",
-            "version": "dev-master",
+            "version": "v0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/xmlsquad/xml-authoring-tools.git",
-                "reference": "514edd40a5462df7297f3818f2466df993dff254"
+                "reference": "5ce484152c1b099aa5bcc9e0b2898d6773cff16b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/xml-authoring-tools/zipball/514edd40a5462df7297f3818f2466df993dff254",
-                "reference": "514edd40a5462df7297f3818f2466df993dff254",
+                "url": "https://api.github.com/repos/xmlsquad/xml-authoring-tools/zipball/5ce484152c1b099aa5bcc9e0b2898d6773cff16b",
+                "reference": "5ce484152c1b099aa5bcc9e0b2898d6773cff16b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1",
                 "symfony/console": "^3.4",
-                "xmlsquad/capture-lookups": "dev-master",
-                "xmlsquad/gsheet-to-xml": "dev-master",
-                "xmlsquad/ping-drive": "dev-master",
-                "xmlsquad/xmlauthor-example-command": "dev-master"
+                "xmlsquad/capture-lookups": "0.3.3",
+                "xmlsquad/gsheet-to-xml": "0.3.3",
+                "xmlsquad/ping-drive": "0.3.3",
+                "xmlsquad/xmlauthor-example-command": "0.3.3"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7.1"
@@ -1267,20 +1267,20 @@
                 "Apache-2.0"
             ],
             "description": "PHP Console commands for managing xml files.",
-            "time": "2018-06-25T06:39:23+00:00"
+            "time": "2018-10-15T07:59:53+00:00"
         },
         {
             "name": "xmlsquad/xmlauthor-example-command",
-            "version": "dev-master",
+            "version": "v0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/xmlsquad/xmlauthor-example-command.git",
-                "reference": "bde3fbfd4c95c33a502f368c6b50c0948896f684"
+                "reference": "22439ab3bc601fece62ae20f6f5271ab61537e43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xmlsquad/xmlauthor-example-command/zipball/bde3fbfd4c95c33a502f368c6b50c0948896f684",
-                "reference": "bde3fbfd4c95c33a502f368c6b50c0948896f684",
+                "url": "https://api.github.com/repos/xmlsquad/xmlauthor-example-command/zipball/22439ab3bc601fece62ae20f6f5271ab61537e43",
+                "reference": "22439ab3bc601fece62ae20f6f5271ab61537e43",
                 "shasum": ""
             },
             "require": {
@@ -1288,7 +1288,7 @@
                 "symfony/console": "^3.4",
                 "symfony/filesystem": "^3.4",
                 "symfony/yaml": "^3.4",
-                "xmlsquad/xml-authoring-library": "dev-master"
+                "xmlsquad/xml-authoring-library": "0.3.3"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7.1"
@@ -1310,7 +1310,7 @@
                 "Apache-2.0"
             ],
             "description": "Example command for managing xml files.",
-            "time": "2018-07-02T02:57:53+00:00"
+            "time": "2018-10-14T20:43:33+00:00"
         }
     ],
     "packages-dev": [
@@ -2725,14 +2725,7 @@
     ],
     "aliases": [],
     "minimum-stability": "alpha",
-    "stability-flags": {
-        "xmlsquad/xml-authoring-tools": 20,
-        "xmlsquad/xmlauthor-example-command": 20,
-        "xmlsquad/ping-drive": 20,
-        "xmlsquad/gsheet-to-xml": 20,
-        "xmlsquad/capture-lookups": 20,
-        "xmlsquad/xml-authoring-library": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
