@@ -3,37 +3,36 @@
     "description": "Structured directory where xmls get created, read, updaated or deleted.",
     "type": "project",
     "license": "Apache-2.0",
-    "repositories-local": [{
-        "type": "path",
-        "url": "../xml-authoring-library",
-        "options": {
-            "symlink": false
+    
+    "repositories": [
+        {
+         "type":"vcs",
+         "url": "git@github.com:xmlsquad/xml-authoring-tools.git"
+        },
+        {
+         "type":"vcs",
+         "url": "git@github.com:xmlsquad/xmlauthor-example-command.git"
+        },
+        {
+         "type":"vcs",
+         "url": "git@github.com:xmlsquad/ping-drive.git"
+        },
+        {
+         "type":"vcs",
+         "url": "git@github.com:xmlsquad/gsheet-to-xml.git"
+        },
+        {
+         "type":"vcs",
+         "url": "git@github.com:xmlsquad/capture-lookups.git"
+        },
+        {
+         "type":"vcs",
+         "url": "git@github.com:xmlsquad/xml-authoring-library.git"
         }
-    },{
-        "type": "path",
-        "url": "../xml-authoring-tools",
-        "options": {
-            "symlink": false
-        }
-    },{
-        "type": "path",
-        "url": "../xmlauthor-example-command",
-        "options": {
-            "symlink": false
-        }
-    },{
-        "type": "path",
-        "url": "../ping-drive",
-        "options": {
-            "symlink": false
-        }
-    },{
-        "type": "path",
-        "url": "../gsheet-to-xml",
-        "options": {
-            "symlink": false
-        }
-    }],
+
+    ],
+
+
 
     "require": {
         "xmlsquad/xml-authoring-tools": "dev-master",
@@ -42,6 +41,7 @@
         "xmlsquad/gsheet-to-xml": "@dev",
         "xmlsquad/capture-lookups": "@dev",
         "xmlsquad/xml-authoring-library": "@dev"
+
     },
     "config": {
         "bin-dir": "bin"

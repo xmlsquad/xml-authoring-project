@@ -199,7 +199,7 @@ Now you can run the `inventory:gsheet-to-xml` using the token.
 
 ### Composer validation notice is OK
 
-The team [uses a trick](https://github.com/xmlsquad/xml-authoring-project/issues/2#issuecomment-394185484) to check dependencies. This trick leaves a validation warning when the project's `composer.json` file is checked by `composer validate`.
+Before 2019-11-03, the team [used a trick](https://github.com/xmlsquad/xml-authoring-project/issues/2#issuecomment-394185484) to check dependencies. This trick leaves a validation warning when the project's `composer.json` file is checked by `composer validate`.
 
 ```bash
 $ pwd
