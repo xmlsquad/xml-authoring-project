@@ -15,3 +15,5 @@ tests/tmp-test-data/*
 
 # Configs
 gApiServiceAccountCredentials.json
+composer.json
+composer.lock
