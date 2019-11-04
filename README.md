@@ -12,6 +12,17 @@ This acts as a project template which forms the base for creating an xml-authori
 
 ## Work with commands
 
+### Create your composer.json file
+
+This project comes with a default set of dependencies in `composer.json.dist` in the root of the project folder.
+
+Make a copy of that composer.json.dist file for the next step.
+```bash
+$ cp composer.json.dist composer.json
+```
+
+
+
 ### Install dependencies
 
 For users:
