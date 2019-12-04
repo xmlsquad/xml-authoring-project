@@ -36,11 +36,11 @@
 
     "require": {
         "xmlsquad/xml-authoring-tools": "dev-master",
-        "xmlsquad/xmlauthor-example-command": "@dev",
-        "xmlsquad/ping-drive": "@dev",
-        "xmlsquad/gsheet-to-xml": "@dev",
-        "xmlsquad/capture-lookups": "@dev",
-        "xmlsquad/xml-authoring-library": "@dev"
+        "xmlsquad/xmlauthor-example-command":  "dev-master",
+        "xmlsquad/ping-drive":  "dev-master",
+        "xmlsquad/gsheet-to-xml":  "dev-master",
+        "xmlsquad/capture-lookups":  "dev-master",
+        "xmlsquad/xml-authoring-library":  "dev-master"
 
     },
     "config": {
